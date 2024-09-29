@@ -17,4 +17,11 @@ class Index extends BaseController
     {
         return 'hello,' . $name;
     }
+
+    public function details($id): string
+    {
+        return "details ID: " . $id;
+    }
+
+
 }
